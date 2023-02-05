@@ -1,0 +1,253 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.page-title{
+    background-color: rgb(250, 235, 215);
+    padding: 1%;
+    margin: -1%;
+}
+
+.page-title > p{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: -.5%;
+}
+
+#input-box{
+    background-color: rgb(255, 236, 210);
+    border-bottom-style:double;
+    border: none;
+    border-radius: 3px;
+    outline:none;
+    text-align: left;
+    font-size: 1.5rem;
+    width: 20rem;
+    height: 2.5rem;
+    margin: 0% 0% 1% 41%;
+    padding-left: .5rem;
+    box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.58);
+}
+
+#guide{
+    border: 0;
+    text-align: center;
+    width: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.84);
+    border-radius: 20px;
+    margin: 0% 0% 0% 97%;
+    box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.58);
+}
+
+#word-tab{
+    color: black;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2%;
+    transition: 0.5s;
+}
+
+#word-tab:hover{
+    font-size: 3.5rem;
+    transition: 0.5s ease-out;
+}
+
+#restart-btn{
+    background-color: rgb(255, 219, 173);
+    border: 0;
+    padding: .5rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin: 2% 0% -100% 47%;
+    box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.58);
+}
+
+#restart-btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 203, 136);
+}
+
+#restart-btn:active{
+    background-color: rgb(250, 187, 105);
+}
+
+/* Score tab */
+.input-field > p{
+    font-weight: 300;
+}
+
+#time-tab{
+    color: black;
+    font-size: 2rem;
+    margin: 0% 0% auto 41%;
+}
+
+#score-tab{
+    color: black;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 1% 0% auto 41%;
+}
+
+#wrong-tab{
+    color: black;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 1% 0% 0% 41%;
+}
+
+#timer{
+    font-weight: 500;
+}
+
+#score{
+    font-weight: 500;
+}
+
+#wrong{
+    font-weight: 500;
+}
+
+
+
+/* Keyboard Tab */
+.keyboard-tab *{
+    transition: .2s;
+}
+
+.keyboard-layout-front > button{
+    background-color: rgb(250, 235, 215);
+    font-size: 1.6rem;
+    border: 0;
+    border-radius: 4px;
+    width: 5rem;
+    height: 5rem;
+    margin-left: .3%;
+    margin-top: 3%;
+}
+
+#Q-key{
+    margin-left: 25%;
+}
+
+#back-key{
+    background-color: rgb(250, 235, 215);
+    font-size: 1.6rem;
+    border: 0;
+    border-radius: 4px;
+    width: fit-content;
+    height: 5rem;
+    position: relative;
+    float: left;
+    margin-left: 72%;
+    margin-top: -4.18%;
+}
+
+.keyboard-layout-mid > button{
+    background-color: rgb(250, 235, 215);
+    font-size: 1.6rem;
+    border: 0;
+    border-radius: 4px;
+    width: 5rem;
+    height: 5rem;
+    margin-left: .3%;
+    margin-top: .3%;
+}
+
+#A-key{
+    margin-left: -52%;
+}
+
+.keyboard-layout-back > button{
+    background-color: rgb(250, 235, 215);
+    font-size: 1.6rem;
+    border: 0;
+    border-radius: 4px;
+    width: 5rem;
+    height: 5rem;
+    margin-left: .3%;
+    margin-top: .3%;
+}
+
+#Z-key{
+    margin-left: 30.5%;
+}
+
+#space-key{
+    background-color: rgb(250, 235, 215);
+    font-size: 1.6rem;
+    border: 0;
+    border-radius: 4px;
+    width: 32rem;
+    height: 5rem;
+    position: relative;
+    margin-left: 33.3%;
+    margin-top: .3%;
+}
+
+
+/* button hover */
+.keyboard-layout-front > button:hover{
+    cursor: pointer;
+    background-color: rgb(253, 217, 169);
+}
+
+.keyboard-layout-mid > button:hover{
+    cursor: pointer;
+    background-color: rgb(253, 217, 169);
+}
+
+.keyboard-layout-back > button:hover{
+    cursor: pointer;
+    background-color: rgb(253, 217, 169);
+}
+
+#back-key:hover{
+    cursor: pointer;
+    background-color: rgb(253, 217, 169);
+}
+
+#space-key:hover{
+    cursor: pointer;
+    background-color: rgb(253, 217, 169);
+}
+
+/* button active */
+.keyboard-tab.active{
+    background-color: rgb(255, 195, 117);
+}
+
+.active, .keyboard-layout-front > button:active{
+    background-color: rgb(255, 195, 117);
+}
+
+.kbMid, .keyboard-layout-mid > button:active{
+    background-color: rgb(255, 195, 117);
+}
+
+.kbBack, .keyboard-layout-back > button:active{
+    background-color: rgb(255, 195, 117);
+}
+
+#back-key.active, #back-key:active{
+    background-color: rgb(255, 195, 117);
+}
+
+#space-key.active, #space-key:active{
+    background-color: rgb(255, 195, 117);
+}
+
+#A-key.active, #A-key:active{
+    background-color: rgb(255, 195, 117);
+}

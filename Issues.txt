@@ -1,0 +1,3 @@
+Issues:
+	1. in button entry with space bar, word not registered to gameRun() -> always result in wrong point
+	2. after time ran out, usr can still input letters in the text box

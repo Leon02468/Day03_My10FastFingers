@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+        <title>Fast Fingers</title>
+    </head>
+
+    <body>
+        <div class="page-title">
+            <div class="guide-btn">
+                <button id="guide">?</button>
+            </div>
+            <p>my 10 fast fingers</p>
+        </div>
+
+        <div class="game-info">
+            <p id="word-tab">WORD</p>
+        </div>
+
+        
+
+        <div class="input-field">
+            <input id="input-box" type="text" placeholder="Type here..." size="40" />
+            
+            <p id="time-tab">Time: <span id="timer">10</span>s</p>
+            <p id="score-tab">Score: <span id="score">0</span></p>
+            <p id="wrong-tab">Wrong: <span id="wrong">0</span></p>
+        </div>
+
+        <div id="restart-tab">
+            <button id="restart-btn">RESTART</button>
+        </div>
+
+        <div class="keyboard-tab">
+            <div class="keyboard-layout-front">
+                <button class="key" id="Q-key">Q</button>
+                <button class="key" id="W-key">W</button>
+                <button class="key" id="E-key">E</button>
+                <button class="key" id="R-key">R</button>
+                <button class="key" id="T-key">T</button>
+                <button class="key" id="Y-key">Y</button>
+                <button class="key" id="U-key">U</button>
+                <button class="key" id="I-key">I</button>
+                <button class="key" id="O-key">O</button>
+                <button class="key" id="P-key">P</button>
+                <button keyname="back" id="back-key">BACKSPACE</button>
+            </div>
+
+            <div class="keyboard-layout-mid">
+                <button class="key" id="A-key">A</button>
+                <button class="key" id="S-key">S</button>
+                <button class="key" id="D-key">D</button>
+                <button class="key" id="F-key">F</button>
+                <button class="key" id="G-key">G</button>
+                <button class="key" id="H-key">H</button>
+                <button class="key" id="J-key">J</button>
+                <button class="key" id="K-key">K</button>
+                <button class="key" id="L-key">L</button>
+            </div>
+
+            <div class="keyboard-layout-back">
+                <button class="key" id="Z-key">Z</button>
+                <button class="key" id="X-key">X</button>
+                <button class="key" id="C-key">C</button>
+                <button class="key" id="V-key">V</button>
+                <button class="key" id="B-key">B</button>
+                <button class="key" id="N-key">N</button>
+                <button class="key" id="M-key">M</button>
+            </div>
+
+            <div class="keyboard-space">
+                <button class="key" id="space-key"></button>
+            </div>
+        </div>
+
+        <script src="JS/index.js"></script>
+    </body>
+</html>
